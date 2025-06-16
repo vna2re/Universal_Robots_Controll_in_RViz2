@@ -17,11 +17,17 @@ This repository contains a ROS 2 (Humble) setup to control a UR10e robotic arm u
 ## 📁 Project Structure
 
 my_robot_description/
+
 ├── launch/
+
 │ └── ur10e_keyboard_control.launch.py
+
 ├── rviz/
+
 │ └── config.rviz
+
 ├── src/
+
 │ └── keyboard_control.cpp
 ├── urdf/
 │ └── ur10e.urdf
