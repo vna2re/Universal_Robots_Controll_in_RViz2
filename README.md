@@ -1,8 +1,4 @@
 # Universal_Robots_ROS2
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
-
 ![Демонстрация](images/output.gif)
 
 ## 🎮 Keyboard Control for UR10e Manipulator in RViz2
