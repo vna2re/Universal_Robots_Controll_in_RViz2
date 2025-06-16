@@ -29,9 +29,13 @@ my_robot_description/
 ├── src/
 
 │ └── keyboard_control.cpp
+
 ├── urdf/
+
 │ └── ur10e.urdf
+
 ├── CMakeLists.txt
+
 └── package.xml
 
 ## ⌨️ How It Works
