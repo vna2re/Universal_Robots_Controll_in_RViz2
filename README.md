@@ -41,7 +41,7 @@ my_robot_description/
 ```bash
 colcon build --packages-select my_robot_description
 source install/setup.bash
-
+```
 2. Run the launch file (visualization and robot state)
 
 ros2 launch my_robot_description ur10e_keyboard_control.launch.py
