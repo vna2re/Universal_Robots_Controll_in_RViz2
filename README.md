@@ -38,16 +38,16 @@ my_robot_description/
 ### 1. Build the package
 
 ```bash
-colcon build --packages-select my_robot_description
+colcon build --packages-select ur10e_rviz_control
 source install/setup.bash
 ```
 ### 2. Run the launch file (visualization and robot state)
 
-ros2 launch my_robot_description ur10e_keyboard_control.launch.py
+ros2 launch ur10e_rviz_control ur10e_keyboard_control.launch.py
 
 ### 3. In a new terminal, run the keyboard control node
 
-ros2 run my_robot_description keyboard_control
+ros2 run ur10e_rviz_control keyboard_control
 
     Note: Focus must be on the terminal to control joints. Use ← and → to switch joints, and ↑/↓ to move them. Press q to quit.
 
