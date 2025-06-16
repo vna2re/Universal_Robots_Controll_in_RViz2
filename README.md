@@ -42,17 +42,17 @@ my_robot_description/
 colcon build --packages-select my_robot_description
 source install/setup.bash
 ```
-2. Run the launch file (visualization and robot state)
+### 2. Run the launch file (visualization and robot state)
 
 ros2 launch my_robot_description ur10e_keyboard_control.launch.py
 
-3. In a new terminal, run the keyboard control node
+### 3. In a new terminal, run the keyboard control node
 
 ros2 run my_robot_description keyboard_control
 
     Note: Focus must be on the terminal to control joints. Use ← and → to switch joints, and ↑/↓ to move them. Press q to quit.
 
-🔧 Dependencies
+# 🔧 Dependencies
 
     ROS 2 Humble
 
