@@ -1,0 +1,71 @@
+[0.009s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vova/ws_rtk/src/ur10e_rviz_control -DCMAKE_INSTALL_PREFIX=/home/vova/ws_rtk/install/my_robot_description
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.394s] -- Detecting CXX compile features
+[0.394s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.577s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.618s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.623s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.631s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.692s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.695s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.793s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.820s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.832s] -- Looking for pthread.h
+[0.898s] -- Looking for pthread.h - found
+[0.898s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.978s] -- Found Threads: TRUE  
+[1.020s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.021s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.046s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.113s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.113s] -- Configured cppcheck include dirs: 
+[1.113s] -- Configured cppcheck exclude dirs and/or files: 
+[1.113s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.114s] -- Added test 'lint_cmake' to check CMake code style
+[1.114s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.115s] -- Added test 'uncrustify' to check C / C++ code style
+[1.115s] -- Configured uncrustify additional arguments: 
+[1.116s] -- Added test 'xmllint' to check XML markup files
+[1.117s] -- Configuring done
+[1.122s] -- Generating done
+[1.124s] -- Build files have been written to: /home/vova/ws_rtk/build/my_robot_description
+[1.130s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vova/ws_rtk/src/ur10e_rviz_control -DCMAKE_INSTALL_PREFIX=/home/vova/ws_rtk/install/my_robot_description
+[1.131s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[1.167s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_control.dir/scripts/keyboard_control.cpp.o[0m
+[2.377s] [01m[K/home/vova/ws_rtk/src/ur10e_rviz_control/scripts/keyboard_control.cpp:[m[K In member function ‘[01m[Kint KeyboardControl::get_key()[m[K’:
+[2.377s] [01m[K/home/vova/ws_rtk/src/ur10e_rviz_control/scripts/keyboard_control.cpp:38:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koldf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.377s]    38 |         int [01;35m[Koldf[m[K;
+[2.377s]       |             [01;35m[K^~~~[m[K
+[3.421s] [100%] [32m[1mLinking CXX executable keyboard_control[0m
+[3.585s] [100%] Built target keyboard_control
+[3.594s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[3.595s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description
+[3.599s] -- Install configuration: ""
+[3.600s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf
+[3.600s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf/ur10e.urdf
+[3.600s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch
+[3.601s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/virtual_ur.launch.py
+[3.601s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[3.601s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/keyboard_control.launch.py
+[3.602s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/dual_control.py
+[3.602s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/keyboard_control.py
+[3.602s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config
+[3.602s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config/joint_trajectory_controller.yaml
+[3.604s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.dsv
+[3.604s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.xml
+[3.606s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description

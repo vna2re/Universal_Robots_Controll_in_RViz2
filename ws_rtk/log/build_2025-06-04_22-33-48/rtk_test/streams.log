@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/vova/ws_rtk/build/rtk_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/rtk_test -- -j20 -l20
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.060s] [ 50%] Built target talker
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[1.236s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[1.237s]    22 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>::SharedPtr array_sub_;
+[1.237s]       |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.237s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.237s]    22 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr array_sub_;
+[1.237s]       |                                                        [01;31m[K^[m[K
+[1.237s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.237s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.237s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.237s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.237s]    22 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K array_sub_;
+[1.237s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[1.237s]       |                                                                    [32m[K;[m[K
+[1.238s] [01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:22:69:[m[K [01;31m[Kerror: [m[K‘[01m[Karray_sub_[m[K’ does not name a type
+[1.238s]    22 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Karray_sub_[m[K;
+[1.238s]       |                                                                     [01;31m[K^~~~~~~~~~[m[K
+[2.434s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sub.cpp.o] Error 1
+[2.435s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[2.435s] gmake: *** [Makefile:146: all] Error 2
+[2.437s] Invoked command in '/home/vova/ws_rtk/build/rtk_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/rtk_test -- -j20 -l20

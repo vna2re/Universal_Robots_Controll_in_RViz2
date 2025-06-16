@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[0.044s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[0.053s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description
+[0.058s] -- Install configuration: ""
+[0.059s] -- Execute custom install script
+[0.059s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf/ur10e.urdf
+[0.059s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[0.059s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/keyboard_control.launch.py
+[0.059s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/virtual_ur.launch.py
+[0.059s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/dual_control.py
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/keyboard_control.py
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config/joint_trajectory_controller.yaml
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.060s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.061s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.061s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.061s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.061s] -- Symlinking: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.dsv
+[0.069s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.069s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.069s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.070s] -- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.xml
+[0.071s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description

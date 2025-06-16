@@ -1,0 +1,208 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x794a8a360d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x794a8a360790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x794a8a360790>>)
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.287s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vova/ws_rtk'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtk_test) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtk_test' with type 'ros.ament_cmake' and name 'rtk_test'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_rviz_control) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur10e_rviz_control' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.324s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vova/ws_rtk/install
+[0.324s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/vova/turtlebot3_ws/install
+[0.325s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/humble
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vova/ws_rtk/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vova/ws_rtk/install/my_robot_description', 'merge_install': False, 'path': '/home/vova/ws_rtk/src/ur10e_rviz_control', 'symlink_install': False, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'rtk_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'rtk_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vova/ws_rtk/build/rtk_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vova/ws_rtk/install/rtk_test', 'merge_install': False, 'path': '/home/vova/ws_rtk/src/rtk_test', 'symlink_install': False, 'test_result_base': None}
+[0.364s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vova/ws_rtk/src/ur10e_rviz_control' with build type 'ament_cmake'
+[0.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vova/ws_rtk/src/ur10e_rviz_control'
+[0.367s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vova/ws_rtk/src/rtk_test' with build type 'ament_cmake'
+[0.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vova/ws_rtk/src/rtk_test'
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vova/ws_rtk/src/ur10e_rviz_control -DCMAKE_INSTALL_PREFIX=/home/vova/ws_rtk/install/my_robot_description
+[0.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vova/ws_rtk/build/rtk_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/rtk_test -- -j20 -l20
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vova/ws_rtk/build/rtk_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/rtk_test -- -j20 -l20
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vova/ws_rtk/build/rtk_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/rtk_test
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtk_test)
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vova/ws_rtk/build/rtk_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/rtk_test
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test' for CMake module files
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test' for CMake config files
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtk_test', 'cmake_prefix_path')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/hook/cmake_prefix_path.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/hook/cmake_prefix_path.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/lib'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/bin'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/lib/pkgconfig/rtk_test.pc'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/lib/python3.10/site-packages'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/bin'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.zsh'
+[0.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vova/ws_rtk/install/rtk_test/share/colcon-core/packages/rtk_test)
+[0.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtk_test)
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test' for CMake module files
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test' for CMake config files
+[0.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtk_test', 'cmake_prefix_path')
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/hook/cmake_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/hook/cmake_prefix_path.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/hook/cmake_prefix_path.sh'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/lib'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/bin'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/lib/pkgconfig/rtk_test.pc'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/lib/python3.10/site-packages'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/rtk_test/bin'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.bash'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.zsh'
+[0.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vova/ws_rtk/install/rtk_test/share/colcon-core/packages/rtk_test)
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vova/ws_rtk/src/ur10e_rviz_control -DCMAKE_INSTALL_PREFIX=/home/vova/ws_rtk/install/my_robot_description
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[3.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description
+[3.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description' for CMake module files
+[3.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description' for CMake config files
+[3.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/lib'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/bin'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/lib/python3.10/site-packages'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/bin'
+[3.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.sh'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.bash'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.zsh'
+[3.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vova/ws_rtk/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[3.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description' for CMake module files
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description' for CMake config files
+[3.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[3.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/lib'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/bin'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/lib/python3.10/site-packages'
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/home/vova/ws_rtk/install/my_robot_description/bin'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.ps1'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.dsv'
+[3.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.sh'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.bash'
+[3.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.zsh'
+[3.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vova/ws_rtk/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[3.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.985s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.009s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vova/ws_rtk/install/local_setup.ps1'
+[4.010s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vova/ws_rtk/install/_local_setup_util_ps1.py'
+[4.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vova/ws_rtk/install/setup.ps1'
+[4.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vova/ws_rtk/install/local_setup.sh'
+[4.015s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vova/ws_rtk/install/_local_setup_util_sh.py'
+[4.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vova/ws_rtk/install/setup.sh'
+[4.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vova/ws_rtk/install/local_setup.bash'
+[4.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vova/ws_rtk/install/setup.bash'
+[4.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vova/ws_rtk/install/local_setup.zsh'
+[4.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vova/ws_rtk/install/setup.zsh'

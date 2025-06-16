@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target keyboard_control[0m
+[100%] Built target keyboard_control
+-- Install configuration: ""
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf/ur10e.urdf
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/virtual_ur.launch.py
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/display.launch.py
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/keyboard_control.launch.py
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/dual_control.py
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/keyboard_control.py
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/config
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/config/joint_trajectory_controller.yaml
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/keyboard_control
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ament_index/resource_index/package_run_dependencies/ur10e_rviz_control
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ament_index/resource_index/parent_prefix_path/ur10e_rviz_control
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/path.sh
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/path.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.bash
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.sh
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.zsh
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.dsv
+-- Installing: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/package.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ament_index/resource_index/packages/ur10e_rviz_control
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/cmake/ur10e_rviz_controlConfig.cmake
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/cmake/ur10e_rviz_controlConfig-version.cmake
+-- Up-to-date: /home/vova/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/package.xml

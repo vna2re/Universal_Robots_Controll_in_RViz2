@@ -1,0 +1,1 @@
+/home/vova/ws_rtk/build/my_robot_description/ament_cmake_environment_hooks/local_setup.sh

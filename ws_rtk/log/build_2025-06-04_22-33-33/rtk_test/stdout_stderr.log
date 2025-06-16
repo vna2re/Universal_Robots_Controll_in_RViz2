@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[ 75%] Built target talker
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:39:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   20 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32[m[K>::SharedPtr number_sub_;
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |   rclcpp::Subscription<std_msgs::msg::Int32[01;31m[K>[m[K::SharedPtr number_sub_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   20 |   rclcpp::Subscription<std_msgs::msg::Int32>::[01;31m[KSharedPtr[m[K number_sub_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:57:[m[K [01;31m[Kerror: [m[K‘[01m[Knumber_sub_[m[K’ does not name a type
+   20 |   rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr [01;31m[Knumber_sub_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:41:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   21 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>::SharedPtr array_sub_;
+      |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr array_sub_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   21 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K array_sub_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:59:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MinimalSubscriber::SharedPtr[m[K’
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:20:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalSubscriber::SharedPtr[m[K’
+   20 |   rclcpp::Subscription<std_msgs::msg::Int32>::[01;36m[KSharedPtr[m[K number_sub_;
+      |                                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:21:69:[m[K [01;31m[Kerror: [m[K‘[01m[Karray_sub_[m[K’ does not name a type
+   21 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Karray_sub_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knumber_sub_[m[K’ was not declared in this scope
+   11 |     [01;31m[Knumber_sub_[m[K = this->create_subscription<std_msgs::msg::Int32>(
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:11:60:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   11 |     number_sub_ = this->create_subscription<std_msgs::msg::[01;31m[KInt32[m[K>(
+      |                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:13:41:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   13 |             [this](const std_msgs::msg::[01;31m[KInt32[m[K::SharedPtr msg) {
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:[m[K In lambda function:
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:16:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   16 |             })[01;31m[K;[m[K
+      |               [01;31m[K^[m[K
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:16:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/sub.cpp:11:66:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   11 |     number_sub_ = this->create_subscription<std_msgs::msg::Int32>[01;36m[K([m[K
+      |                                                                  [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

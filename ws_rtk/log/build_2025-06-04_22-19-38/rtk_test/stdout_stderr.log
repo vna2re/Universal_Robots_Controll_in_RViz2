@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[ 75%] Built target listener
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker
+-- Set runtime path of "/home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker" to ""
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/listener
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/package_run_dependencies/rtk_test
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/parent_prefix_path/rtk_test
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/path.sh
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/path.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.bash
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.sh
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.zsh
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.dsv
+-- Installing: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/packages/rtk_test
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/cmake/rtk_testConfig.cmake
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/cmake/rtk_testConfig-version.cmake
+-- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.xml

@@ -1,0 +1,22 @@
+[ 50%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/listener
+-- Up-to-date symlink: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/package_run_dependencies/rtk_test
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/parent_prefix_path/rtk_test
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/ament_prefix_path.sh
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/path.sh
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/path.dsv
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.bash
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.sh
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.zsh
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.dsv
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.dsv
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/packages/rtk_test
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/cmake/rtk_testConfig.cmake
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/cmake/rtk_testConfig-version.cmake
+-- Symlinking: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.xml

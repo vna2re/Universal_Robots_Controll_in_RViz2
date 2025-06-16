@@ -1,0 +1,11 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf/ur10e.urdf
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/vova/ws_rtk/src/my_robot_description/meshes'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

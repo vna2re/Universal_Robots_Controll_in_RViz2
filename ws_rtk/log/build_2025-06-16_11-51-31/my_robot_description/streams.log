@@ -1,0 +1,19 @@
+[0.010s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target keyboard_control[0m
+[0.044s] [100%] Built target keyboard_control
+[0.051s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/my_robot_description -- -j20 -l20
+[0.056s] Invoking command in '/home/vova/ws_rtk/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description
+[0.060s] -- Install configuration: ""
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf/ur10e.urdf
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/virtual_ur.launch.py
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/keyboard_control.launch.py
+[0.060s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/dual_control.py
+[0.061s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/keyboard_control.py
+[0.061s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config
+[0.061s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config/joint_trajectory_controller.yaml
+[0.061s] -- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.dsv
+[0.061s] -- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.xml
+[0.062s] Invoked command in '/home/vova/ws_rtk/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/my_robot_description

@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/pub.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vova/ws_rtk/src/rtk_test/src/pub.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_int_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpubint_[m[K’?
+   21 |         [01;31m[Kpub_int_[m[K = this->create_publisher<std_msgs::msg::Int32>("number_topic", 10);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kpubint_[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

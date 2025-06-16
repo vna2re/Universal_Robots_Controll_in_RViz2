@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/vova/ws_rtk/build/rtk_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/rtk_test -- -j20 -l20
+[0.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.203s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.206s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.255s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.411s] -- Configuring done
+[0.420s] -- Generating done
+[0.422s] -- Build files have been written to: /home/vova/ws_rtk/build/rtk_test
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.450s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[0.472s] [ 75%] Built target talker
+[4.768s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.001s] [100%] Built target listener
+[5.009s] Invoked command in '/home/vova/ws_rtk/build/rtk_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/ws_rtk/build/rtk_test -- -j20 -l20
+[5.016s] Invoking command in '/home/vova/ws_rtk/build/rtk_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/rtk_test
+[5.022s] -- Install configuration: ""
+[5.022s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker
+[5.022s] -- Installing: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/listener
+[5.025s] -- Set runtime path of "/home/vova/ws_rtk/install/rtk_test/lib/rtk_test/listener" to ""
+[5.025s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/lib/rtk_test/talker
+[5.025s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/package_run_dependencies/rtk_test
+[5.025s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/parent_prefix_path/rtk_test
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/ament_prefix_path.sh
+[5.026s] -- Installing: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/ament_prefix_path.dsv
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/path.sh
+[5.026s] -- Installing: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/environment/path.dsv
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.bash
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.sh
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.zsh
+[5.026s] -- Installing: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/local_setup.dsv
+[5.026s] -- Installing: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.dsv
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/ament_index/resource_index/packages/rtk_test
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/cmake/rtk_testConfig.cmake
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/cmake/rtk_testConfig-version.cmake
+[5.026s] -- Up-to-date: /home/vova/ws_rtk/install/rtk_test/share/rtk_test/package.xml
+[5.028s] Invoked command in '/home/vova/ws_rtk/build/rtk_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/ws_rtk/build/rtk_test

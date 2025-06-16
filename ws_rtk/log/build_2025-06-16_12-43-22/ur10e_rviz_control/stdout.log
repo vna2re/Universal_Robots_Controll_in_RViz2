@@ -1,0 +1,9 @@
+[100%] Built target keyboard_control
+-- Install configuration: ""
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf/ur10e.urdf
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/virtual_ur.launch.py
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/display.launch.py
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/keyboard_control.launch.py
+-- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/dual_control.py

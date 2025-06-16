@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/1111/ws_rtk/build/ur10e_rviz_control -- -j20 -l20
+[0.056s] [100%] Built target keyboard_control
+[0.069s] Invoked command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/1111/ws_rtk/build/ur10e_rviz_control -- -j20 -l20
+[0.081s] Invoking command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/1111/ws_rtk/build/ur10e_rviz_control
+[0.092s] -- Install configuration: ""
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf/ur10e.urdf
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/virtual_ur.launch.py
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/display.launch.py
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/keyboard_control.launch.py
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/dual_control.py
+[0.092s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/config
+[0.092s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/keyboard_control
+[0.093s] -- Set runtime path of "/home/vova/1111/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/keyboard_control" to ""
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ament_index/resource_index/package_run_dependencies/ur10e_rviz_control
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ament_index/resource_index/parent_prefix_path/ur10e_rviz_control
+[0.093s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/ament_prefix_path.sh
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/ament_prefix_path.dsv
+[0.093s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/path.sh
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/environment/path.dsv
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.bash
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.sh
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.zsh
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/local_setup.dsv
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/package.dsv
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ament_index/resource_index/packages/ur10e_rviz_control
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/cmake/ur10e_rviz_controlConfig.cmake
+[0.093s] -- Installing: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/cmake/ur10e_rviz_controlConfig-version.cmake
+[0.093s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/package.xml
+[0.095s] Invoked command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/1111/ws_rtk/build/ur10e_rviz_control

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:58 (file):
+  file INSTALL cannot find
+  "/home/vova/1111/ws_rtk/src/ur10e_rviz_control/config": No such file or
+  directory.
+
+[0m

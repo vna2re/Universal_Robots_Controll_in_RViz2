@@ -1,0 +1,19 @@
+[0.007s] Invoking command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/1111/ws_rtk/build/ur10e_rviz_control -- -j20 -l20
+[0.046s] [100%] Built target keyboard_control
+[0.053s] Invoked command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vova/1111/ws_rtk/build/ur10e_rviz_control -- -j20 -l20
+[0.064s] Invoking command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/1111/ws_rtk/build/ur10e_rviz_control
+[0.072s] -- Install configuration: ""
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/urdf/ur10e.urdf
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/virtual_ur.launch.py
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/display.launch.py
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/share/ur10e_rviz_control/launch/keyboard_control.launch.py
+[0.072s] -- Up-to-date: /home/vova/1111/ws_rtk/install/ur10e_rviz_control/lib/ur10e_rviz_control/dual_control.py
+[0.072s] [31mCMake Error at cmake_install.cmake:58 (file):
+[0.072s]   file INSTALL cannot find
+[0.072s]   "/home/vova/1111/ws_rtk/src/ur10e_rviz_control/config": No such file or
+[0.072s]   directory.
+[0.072s] 
+[0.073s] [0m
+[0.074s] Invoked command in '/home/vova/1111/ws_rtk/build/ur10e_rviz_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vova/turtlebot3_ws/install/turtlebot3_teleop:/home/vova/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vova/1111/ws_rtk/build/ur10e_rviz_control

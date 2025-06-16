@@ -1,0 +1,14 @@
+[100%] Built target keyboard_control
+-- Install configuration: ""
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/urdf/ur10e.urdf
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/virtual_ur.launch.py
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/launch/keyboard_control.launch.py
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/dual_control.py
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/lib/my_robot_description/keyboard_control.py
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/config/joint_trajectory_controller.yaml
+-- Installing: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.dsv
+-- Up-to-date: /home/vova/ws_rtk/install/my_robot_description/share/my_robot_description/package.xml
