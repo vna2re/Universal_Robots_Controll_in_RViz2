@@ -3,6 +3,8 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
+![Демонстрация](images/output.gif)
+
 ## 🎮 Keyboard Control for UR10e Manipulator in RViz2
 
 This repository contains a ROS 2 (Humble) setup to control a UR10e robotic arm using keyboard input. It allows real-time manipulation of joints directly from the keyboard, visualized in RViz2.
