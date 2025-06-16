@@ -16,7 +16,7 @@ This repository contains a ROS 2 (Humble) setup to control a UR10e robotic arm u
 
 ## 📁 Project Structure
 
-my_robot_description/
+ur10e_rviz_control/
 
 ├── launch/
 
