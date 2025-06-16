@@ -58,7 +58,7 @@ ros2 launch ur10e_rviz_control ur10e_keyboard_control.launch.py
 ### 3. In a new terminal, run the keyboard control node
 
     ros2 run ur10e_rviz_control keyboard_control
-    Note: Focus must be on the terminal to control joints. Use ← and → to switch joints, and ↑/↓ to move them. Press q to quit.
+    # Note: Focus must be on the terminal to control joints. Use ← and → to switch joints, and ↑/↓ to move them. Press q to quit.
 
 # 🔧 Dependencies
 
