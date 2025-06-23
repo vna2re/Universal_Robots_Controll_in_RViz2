@@ -1,4 +1,4 @@
-# Universal_Robots_ROS2
+# Universal_Robots_ROS2_Controll_in_Rviz2_with_URDF
 ![Демонстрация](images/output.gif)
 
 ## 🎮 Keyboard Control for UR10e Manipulator in RViz2
