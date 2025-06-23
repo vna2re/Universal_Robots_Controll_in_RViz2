@@ -52,7 +52,8 @@ colcon build --packages-select ur10e_rviz_control
 source install/setup.bash
 ```
 ### 2. Run the launch file (visualization and robot state)
-```bash ros2 launch ur10e_rviz_control ur10e_keyboard_control.launch.py```
+```bash 
+ros2 launch ur10e_rviz_control ur10e_keyboard_control.launch.py```
 
 ### 3. In a new terminal, run the keyboard control node
 
